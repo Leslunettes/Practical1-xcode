@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5FEAF171FA299F900BC5AD3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5FEAF161FA299F900BC5AD3 /* main.cpp */; };
+		D5FEAF261FA29A0E00BC5AD3 /* VectorTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5FEAF1E1FA29A0E00BC5AD3 /* VectorTester.cpp */; };
+		D5FEAF271FA29A0E00BC5AD3 /* VectorTester.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FEAF211FA29A0E00BC5AD3 /* VectorTester.o */; };
+		D5FEAF281FA29A0E00BC5AD3 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5FEAF221FA29A0E00BC5AD3 /* Vector.cpp */; };
+		D5FEAF291FA29A0E00BC5AD3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5FEAF231FA29A0E00BC5AD3 /* main.cpp */; };
+		D5FEAF2A1FA29A0E00BC5AD3 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = D5FEAF241FA29A0E00BC5AD3 /* makefile */; };
+		D5FEAF2B1FA29A0E00BC5AD3 /* Vector.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FEAF251FA29A0E00BC5AD3 /* Vector.o */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,15 @@
 
 /* Begin PBXFileReference section */
 		D5FEAF131FA299F900BC5AD3 /* Practical1-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practical1-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5FEAF161FA299F900BC5AD3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D5FEAF1D1FA29A0E00BC5AD3 /* main */ = {isa = PBXFileReference; lastKnownFileType = file; path = main; sourceTree = "<group>"; };
+		D5FEAF1E1FA29A0E00BC5AD3 /* VectorTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTester.cpp; sourceTree = "<group>"; };
+		D5FEAF1F1FA29A0E00BC5AD3 /* VectorTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTester.h; sourceTree = "<group>"; };
+		D5FEAF201FA29A0E00BC5AD3 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		D5FEAF211FA29A0E00BC5AD3 /* VectorTester.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = VectorTester.o; sourceTree = "<group>"; };
+		D5FEAF221FA29A0E00BC5AD3 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		D5FEAF231FA29A0E00BC5AD3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D5FEAF241FA29A0E00BC5AD3 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		D5FEAF251FA29A0E00BC5AD3 /* Vector.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Vector.o; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FEAF2B1FA29A0E00BC5AD3 /* Vector.o in Frameworks */,
+				D5FEAF271FA29A0E00BC5AD3 /* VectorTester.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +72,15 @@
 		D5FEAF151FA299F900BC5AD3 /* Practical1-xcode */ = {
 			isa = PBXGroup;
 			children = (
-				D5FEAF161FA299F900BC5AD3 /* main.cpp */,
+				D5FEAF1D1FA29A0E00BC5AD3 /* main */,
+				D5FEAF231FA29A0E00BC5AD3 /* main.cpp */,
+				D5FEAF241FA29A0E00BC5AD3 /* makefile */,
+				D5FEAF221FA29A0E00BC5AD3 /* Vector.cpp */,
+				D5FEAF201FA29A0E00BC5AD3 /* Vector.h */,
+				D5FEAF251FA29A0E00BC5AD3 /* Vector.o */,
+				D5FEAF1E1FA29A0E00BC5AD3 /* VectorTester.cpp */,
+				D5FEAF1F1FA29A0E00BC5AD3 /* VectorTester.h */,
+				D5FEAF211FA29A0E00BC5AD3 /* VectorTester.o */,
 			);
 			path = "Practical1-xcode";
 			sourceTree = "<group>";
@@ -119,7 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FEAF171FA299F900BC5AD3 /* main.cpp in Sources */,
+				D5FEAF281FA29A0E00BC5AD3 /* Vector.cpp in Sources */,
+				D5FEAF261FA29A0E00BC5AD3 /* VectorTester.cpp in Sources */,
+				D5FEAF2A1FA29A0E00BC5AD3 /* makefile in Sources */,
+				D5FEAF291FA29A0E00BC5AD3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
