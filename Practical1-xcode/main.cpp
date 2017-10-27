@@ -9,7 +9,7 @@
 #include <string>
 
 #include "VectorTester.h"
-//git text vendredi
+//git text vendredif
 
 using std::cin;
 using std::cout;
